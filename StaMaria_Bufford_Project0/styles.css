@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #24292E;
+    color: #FFF;
+    font-family: Helvetica, sans-serif;
+    font-size: 1em;
+    overflow: hidden;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 2em 0;
+    text-align: center;
+    height: 2.5rem;
+    line-height: 24px;
+}
+
+img {
+    display: block;
+}
+
+#button {
+    margin: 250px auto;
+}
+
+#yoda {
+    margin: 100px auto 50px;
+}
+
+#undo {
+    margin: auto;
+}
