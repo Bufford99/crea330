@@ -7,7 +7,7 @@ html, body {
 }
 
 .bg {
-    background-image: url(../img/ramen.png);
+    background-image: url(../img/ramen.jpg);
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -27,5 +27,5 @@ html, body {
 }
 
 #logo {
-    height: 200px;
+    width: 280px;
 }
