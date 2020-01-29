@@ -24,9 +24,37 @@ html, body {
     width: 100%;
     height: 200px;
     display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 2fr;
     justify-content: center;
+    align-items: center;
+}
+
+#header > a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 18px;
+    color: #fff;
+}
+
+#home {
+    grid-column-start: 2;
+}
+
+#menu {
+    grid-column-start: 3;
 }
 
 #logo {
+    grid-column-start: 4;
     width: 280px;
+}
+
+#drinks {
+    grid-column-start: 5;
+}
+
+#contact {
+    grid-column-start: 6;
 }
