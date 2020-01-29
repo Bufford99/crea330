@@ -38,24 +38,24 @@ html, body {
     color: #fff;
 }
 
-#home {
+#topnav .home {
     grid-column-start: 2;
 }
 
-#menu {
+#topnav .menu {
     grid-column-start: 3;
 }
 
-#logo {
+#topnav .logo {
     grid-column-start: 4;
     width: 280px;
 }
 
-#drinks {
+#topnav .drinks {
     grid-column-start: 5;
 }
 
-#contact {
+#topnav .contact {
     grid-column-start: 6;
 }
 
@@ -63,8 +63,12 @@ html, body {
     display: none;
 }
 
+.responsive {
+    display: none;
+}
+
 @media only screen and (max-width: 1200px) {
-    #home, #menu, #drinks, #contact { display: none; }
+    #topnav .home, .menu, .drinks, .contact { display: none; }
     
     #topnav a.icon {
         display: inline;
