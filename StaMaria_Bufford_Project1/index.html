@@ -4,12 +4,11 @@
 <head>
 
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js"></script>
 
     <title>Takara Ramen</title>
 
@@ -17,13 +16,16 @@
 
 <body class="bg">
 
-    <header id="topnav" class="bg-overlay" role="banner">
+    <nav id="topnav" class="bg-overlay" role="banner">
         <a id="home" href="index.html">Home</a>
         <a id="menu" href="menu.html">Menu</a>
-        <img id="logo" src="img/logo.png"></img>
+        <img id="logo" src="img/logo.png" alt="takara ramen logo">
         <a id="drinks" href="drinks.html">Drinks</a>
         <a id="contact" href="contact.html">Contact</a>
-    </header>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <img src="img/menu.png">
+        </a>
+    </nav>
 
     
     <div class="bg-overlay"></div>
