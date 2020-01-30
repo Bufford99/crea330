@@ -74,6 +74,14 @@ html, body {
     display: none;
 }
 
+.img-menu {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    width: 50%;
+}
+
 @media only screen and (max-width: 1200px) {
     #topnav .home, .menu, .drinks, .contact { display: none; }
     
@@ -92,5 +100,9 @@ html, body {
         float: none;
         display: block;
         text-align: left;
+    }
+
+    .img-menu {
+        width: 75%;
     }
 }
