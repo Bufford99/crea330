@@ -138,9 +138,11 @@ html, body {
 .responsive {
     display: none;
     width: 100%;
+    height: fit-content;
     background-color: #1a1a1a;
     flex-direction: column;
     align-items: center;
+    text-align: center;
 }
 
 .responsive>a {
@@ -149,11 +151,13 @@ html, body {
     text-transform: uppercase;
     letter-spacing: 2px;
     font-size: 30px;
+    padding: 12px 0px;
     color: #fff;
     transition: .5s;
+    width: 100%;
 }
 
-.responsive:hover {
+.responsive>a:hover {
     background-color: #000;
 }
 
@@ -166,7 +170,7 @@ html, body {
         grid-row-start: 1;
         position: absolute;
         left: 20px;
-        top: 20px;
+        top: 10px;
     }
 
     .img-menu {
