@@ -138,8 +138,8 @@ html, body {
 .responsive {
     display: none;
     width: 100%;
-    height: fit-content;
-    background-color: #1a1a1a;
+    height: 240px;
+    background-color: rgba(0, 0, 0, 0.3);
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -158,7 +158,7 @@ html, body {
 }
 
 .responsive>a:hover {
-    background-color: #000;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 @media only screen and (max-width: 1200px) {
