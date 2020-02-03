@@ -135,6 +135,28 @@ html, body {
     width: 50%;
 }
 
+.responsive {
+    display: none;
+    width: 100%;
+    background-color: #1a1a1a;
+    flex-direction: column;
+    align-items: center;
+}
+
+.responsive>a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #fff;
+    transition: .5s;
+}
+
+.responsive:hover {
+    background-color: #000;
+}
+
 @media only screen and (max-width: 1200px) {
     #topnav .home, .menu, .drinks, .contact { display: none; }
     
