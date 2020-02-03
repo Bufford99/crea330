@@ -43,6 +43,11 @@ html, body {
     letter-spacing: 3px;
     font-size: 18px;
     color: #fff;
+    transition: .5s;
+}
+
+#topnav a:hover {
+    color: #8f242e;
 }
 
 #topnav .home {
@@ -70,10 +75,6 @@ html, body {
     display: none;
 }
 
-#responsive {
-    display: none;
-}
-
 .img-menu {
     display: block;
     margin-left: auto;
@@ -92,13 +93,6 @@ html, body {
         position: absolute;
         left: 20px;
         top: 20px;
-    }
-
-    #responsive {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
     }
 
     .img-menu {
