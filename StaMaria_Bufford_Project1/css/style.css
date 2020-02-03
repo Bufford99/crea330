@@ -162,7 +162,7 @@ html, body {
 }
 
 @media only screen and (max-width: 1200px) {
-    #topnav .home, .menu, .drinks, .contact { display: none; }
+    #topnav>a { display: none; }
     
     #topnav a.icon {
         display: inline;
