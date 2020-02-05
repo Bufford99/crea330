@@ -11,9 +11,3 @@ $(document).ready(function() {
         $(".responsive").css("display", "flex");
     });
 });
-
-// $(window).ready(function() {
-//     $("*").lazyLoad({
-//         effect: "fadeIn"
-//     });
-// });
