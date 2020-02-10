@@ -130,9 +130,7 @@ html, body {
 
 .img-menu {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
+    margin: 20px auto;
     width: 50%;
 }
 
